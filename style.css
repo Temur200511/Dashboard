@@ -1,0 +1,477 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap");
+@font-face {
+  font-family: "Berlin Sans FB Demi", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background .px_12 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15.26px;
+  text-align: center;
+}
+.background menu {
+  background-color: rgb(249, 249, 249);
+  position: fixed;
+  overflow-y: scroll;
+  height: 100vh;
+  margin-top: 0;
+  padding-top: 0;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+.background menu p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15.26px;
+  text-align: center;
+  color: rgb(121, 135, 165);
+}
+.background menu .logo {
+  padding: 50px 85px 25px 85px;
+}
+.background menu .dash_calc {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.background menu .dash_calc .appoin {
+  padding-top: 12px;
+  padding-bottom: 29px;
+}
+.background menu .dash_calc .appoin:hover {
+  scale: 1.02;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.background menu .dash_calc .dashboard:hover {
+  scale: 1.02;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.background menu .wallet_sav {
+  padding-left: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 55px;
+  padding-top: 20px;
+}
+.background menu .wallet_sav .wallet:hover {
+  scale: 1.02;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.background menu .wallet_sav .saving:hover {
+  scale: 1.02;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.background menu .wallet_sav p {
+  padding-top: 16px;
+}
+.background menu .upcoming {
+  padding-top: 70px;
+}
+.background menu .ballon {
+  background-color: rgb(207, 200, 255);
+  margin: 48px 48px 26px 48px;
+  border-radius: 20px;
+}
+.background menu .ballon .ball {
+  padding: 10px;
+}
+.background menu .ballon .pro {
+  background-color: rgb(255, 255, 255);
+  border-radius: 13px;
+  margin: 0 18px 23px 18px;
+}
+.background menu .ballon .pro .px_11 {
+  padding: 14px 20px;
+  font-size: 11.54px;
+  font-weight: 400;
+  line-height: 16.48px;
+  text-align: center;
+  color: rgb(95, 117, 238);
+}
+.background menu .ballon .pro .px_11 a {
+  text-decoration: none;
+}
+.background menu .ballon .pro .px_11 a:hover {
+  color: rgb(48, 64, 157);
+}
+.background .container {
+  max-width: 650px;
+  margin: 0 auto;
+}
+.background .container header {
+  padding-top: 40px;
+  position: relative;
+}
+.background .container header form {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: rgb(247, 248, 250);
+  border-radius: 40px;
+}
+.background .container header form #search {
+  border: none;
+  outline: none;
+  padding: 15px 0;
+  background-color: rgb(247, 248, 250);
+}
+.background .container header form .search {
+  padding-left: 20px;
+}
+.background .container header form .search:hover {
+  cursor: pointer;
+}
+.background .container header .px_37 {
+  padding-top: 110px;
+  font-family: "Bungee Shade", serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 44.46px;
+  letter-spacing: 0.085em;
+  text-align: left;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: rgb(57, 57, 57);
+}
+.background .container header .circle {
+  border-radius: 50%;
+  background-color: rgb(249, 137, 107);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 17.59px;
+  text-align: center;
+  padding: 8px;
+  position: absolute;
+  left: 280px;
+  top: 170px;
+  color: rgb(255, 255, 255);
+}
+.background .container main .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+.background .container main .grid .card_1 {
+  background-color: rgb(253, 237, 213);
+  border-radius: 10px;
+}
+.background .container main .grid .card_1:hover {
+  scale: 1.01;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.background .container main .grid .card_1 .bitcoin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 97px;
+  padding-top: 30px;
+}
+.background .container main .grid .card_1 .bitcoin img:hover {
+  cursor: pointer;
+}
+.background .container main .grid .card_1 .px_22 {
+  font-family: "Berlin Sans FB Demi", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 24.84px;
+  letter-spacing: -0.06em;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  padding: 15px 0 18px 0;
+}
+.background .container main .grid .card_1 .price {
+  padding-top: 18px;
+  padding-left: 15px;
+  padding-bottom: 35px;
+}
+.background .container main .grid .card_2 {
+  background-color: rgb(253, 228, 249);
+}
+.background .container main .grid .card_3 {
+  background-color: rgb(181, 224, 233);
+}
+.background .container main .line {
+  height: 7px;
+  width: 75px;
+  border-radius: 24px;
+  background-color: rgb(57, 54, 252);
+  margin: auto;
+  margin-top: 70px;
+}
+.background .container main .more {
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  box-shadow: 19px 22px 45px 0px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin: 30px 0;
+}
+.background .container main .more .vector {
+  padding: 15px;
+}
+.background .container main .activities .px_30 {
+  font-family: "Berlin Sans FB";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 32.97px;
+  text-align: left;
+  color: rgb(0, 0, 0);
+}
+.background .container main .activities .px_16 {
+  font-family: "Berlin Sans FB Demi";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18.06px;
+  text-align: left;
+  color: rgb(111, 118, 126);
+}
+.background .container main .activities .edit {
+  font-family: Berlin Sans FB Demi;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18.06px;
+  text-align: left;
+  color: rgb(111, 118, 126);
+}
+.background .container main .activities .edit:hover {
+  cursor: pointer;
+  color: #e3e3e3;
+}
+.background .container main .activities .time {
+  display: flex;
+  gap: 190px;
+  align-items: center;
+}
+.background .container main .activities .time .updat {
+  display: flex;
+  gap: 110px;
+}
+.background .container main .activities .time .sett {
+  display: flex;
+  gap: 8px;
+}
+.background .container main .activities .time .sett img:hover {
+  cursor: pointer;
+}
+.background .container main .insurance {
+  padding-top: 45px;
+}
+.background .container main .insurance .footer {
+  display: flex;
+  gap: 40px;
+}
+.background .container main .insurance .footer .px_18 {
+  font-family: "Berlin Sans FB";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 19.78px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+.background .container main .insurance .footer .px_14 {
+  color: rgb(111, 118, 126);
+  font-family: "Berlin Sans FB";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15.39px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+.background .container main .insurance .qalqon {
+  background-color: rgb(247, 247, 249);
+  display: inline-block;
+  border-radius: 10px;
+}
+.background .container main .insurance .qalqon .qalqon_1 {
+  padding: 12px 16px;
+}
+.background .container main .insurance .footer_1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.background aside {
+  padding-top: 40px;
+  background-color: rgb(249, 250, 255);
+  position: fixed;
+  overflow-y: scroll;
+  height: 100vh;
+  margin-right: 0;
+  margin-top: 0;
+  right: 0;
+  top: 0;
+}
+.background aside .aside_itmes {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  padding-left: 50px;
+}
+.background aside .payments {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+  padding-top: 65px;
+}
+.background aside .payments .px_34 {
+  color: rgb(0, 0, 0);
+  font-family: "Berlin Sans FB";
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 37.37px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+.background aside .payments button {
+  padding: 14px 32px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  color: rgb(0, 0, 0);
+}
+.background aside .payments button:hover {
+  cursor: pointer;
+}
+.background aside .dollar {
+  display: flex;
+  gap: 50px;
+}
+.background aside .dollar .px_14:hover {
+  cursor: pointer;
+  color: #5b5555;
+}
+.background aside .dollar .receve {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  align-items: center;
+}
+.background aside .dollar .receve img:hover {
+  cursor: pointer;
+  scale: 1.02;
+}
+.background aside .ellipse {
+  padding-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 140px;
+}
+.background aside .ellipse .people {
+  display: flex;
+  gap: -4px;
+}
+.background aside .ellipse .people img:hover {
+  cursor: pointer;
+  scale: 1.06;
+}
+.background aside .box {
+  background-color: rgb(255, 255, 255);
+  padding: 19px 25px;
+  border-radius: 10px;
+  margin: 40px;
+  box-shadow: 0px 21px 79px 0px rgba(0, 0, 0, 0.08);
+}
+.background aside .tahrir {
+  display: flex;
+  align-items: center;
+  background-color: rgb(127, 110, 235);
+  border-radius: 10px;
+  margin: 40px 40px;
+  gap: 60px;
+  opacity: 0.5;
+  padding: 10px;
+}
+.background aside .tahrir button {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 2px 27px 0px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  padding: 13px;
+  border: none;
+}
+.background aside .tahrir button:hover {
+  cursor: pointer;
+  scale: 1.02;
+}
+.background aside .tahrir .trans {
+  display: flex;
+  gap: 13px;
+}
+.background aside .tahrir .px_12 {
+  color: rgb(43, 15, 224);
+  font-family: "Berlin Sans FB";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 13.19px;
+  text-align: left;
+}
+.background aside .px_34 {
+  font-family: "Berlin Sans FB";
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 37.37px;
+  color: rgb(0, 0, 0);
+  padding-left: 40px;
+  padding: 50px 0 35px 40px;
+}
+.background aside .last {
+  display: flex;
+  align-items: center;
+  gap: 220px;
+  justify-content: center;
+  padding-top: 20px;
+}
+.background aside .last .px_18 {
+  font-family: "Berlin Sans FB";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 19.78px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: rgb(93, 78, 123);
+}
+.background aside .last .px_10 {
+  font-family: Google Sans;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12.72px;
+  text-align: left;
+  color: rgb(93, 78, 123);
+}
+.background aside .last .bte {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.background aside .last .line_first {
+  display: flex;
+  gap: 11px;
+}
+.background aside .foot {
+  padding-bottom: 70px;
+}/*# sourceMappingURL=style.css.map */
